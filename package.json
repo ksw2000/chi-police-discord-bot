@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.18.0",
+    "@typescript-eslint/parser": "^6.18.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "bin": {
+    "twitterFix": "dist/main.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc & node dist/main.js",
+    "lint": "eslint src/**"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "jieba-zh-tw": "^1.0.12",
+    "js-jieba": "^1.0.12"
+  }
+}
